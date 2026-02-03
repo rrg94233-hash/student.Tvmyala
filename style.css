@@ -1,0 +1,72 @@
+body, html {
+    margin: 0; padding: 0;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.top-banner {
+    background-color: #009688;
+    height: 50vh;   
+    display: flex;
+    justify-content: center; /* จัดกลางแนวนอน */
+    align-items: center;    /* จัดกลางแนวตั้ง */
+    color: rgb(31, 30, 30);
+}
+
+/* จัดวางรูปทางซ้าย ข้อความทางขวา */
+.header-content {
+    display: flex;
+    flex-direction: row;    /* เรียงแนวนอน */
+    align-items: center;    /* จัดให้กึ่งกลางแนวระนาบเดียวกัน */
+    gap: 2px;             /* ระยะห่างระหว่างรูปกับข้อความ */
+}
+
+.main-logo {
+    width: 100px;          /* ขนาดโลโก้ */
+    height: auto;
+}
+
+.text-group {
+    text-align: left;      /* ให้ข้อความชิดซ้าย */
+}
+
+.text-group span {
+    display: block;        /* เรียงข้อความจากบนลงล่าง */
+    line-height: 1.2;
+}
+
+.arabic { font-size: 26px; margin-bottom: 1px; font-weight: bold; }
+.thai { font-size: 22px; font-weight: bold; }
+.eng { font-size: 16px; letter-spacing: 0.5px; font-weight: bold; }
+
+/* กล่อง Login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -190px;     /* ดึงกล่องขึ้นไปเกยส่วนสีเขียว */
+}
+
+.login-card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.login-card h3 {
+    text-align: center;
+    color: #292727;
+    font-size: 28px;
+}
+    
+hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; color: #666; font-size: 15px; margin-bottom: 8px; }
+.input-group input { 
+    width: 100%; padding: 12px; border: 1px solid #ddd; 
+    border-radius: 4px; box-sizing: border-box; 
+}
+
