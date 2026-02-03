@@ -70,3 +70,8 @@ hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
     border-radius: 4px; box-sizing: border-box; 
 }
 
+.btn-signin {
+    width: 100%; padding: 13px; background: #009688; 
+    color: white; border: none; border-radius: 4px; 
+    font-weight: bold; cursor: pointer; font-size: 16px;
+}
