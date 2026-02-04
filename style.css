@@ -22,7 +22,7 @@ body, html {
 }
 
 .main-logo {
-    width: 100px;          /* ขนาดโลโก้ */
+    width: 98px;          /* ขนาดโลโก้ */
     height: auto;
 }
 
@@ -44,14 +44,14 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -190px;     /* ดึงกล่องขึ้นไปเกยส่วนสีเขียว */
+    margin-top: -150px;     /* ดึงกล่องขึ้นไปเกยส่วนสีเขียว */
 }
 
 .login-card {
     background: white;
     padding: 30px;
-    width: 300px;
-    border-radius: 4px;
+    width: 280px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
